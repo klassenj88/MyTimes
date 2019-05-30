@@ -73,9 +73,10 @@
   margin: 0;
   padding: 0;
   border: 5px solid red;
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .main-content {
@@ -189,4 +190,17 @@ h2 {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.bites {
+  display: flex;
+  flex-direction: column;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+}
+
+.bites span {
+  border-bottom: 1px solid black;
 }
