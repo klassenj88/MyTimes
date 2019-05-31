@@ -56,14 +56,13 @@
   width: 630px;
   display: flex;
   margin-right: 32px;
+  flex-direction: column;
 }
 
 .column.medium {
-  border: 1px solid black;
-  display: inline-flex;
+  display: flex;
   margin-right: 32px;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
   width: 300px;
 
 }
@@ -72,7 +71,6 @@
   width: 240px;
   margin: 0;
   padding: 0;
-  border: 5px solid red;
   display: flex;
   justify-content: center;
   align-items: center;
